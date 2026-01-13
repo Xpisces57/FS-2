@@ -1,0 +1,88 @@
+/* ROOT RESET */
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* COMMON THEME STYLES */
+.light,
+.dark {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* LIGHT MODE */
+.light {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* DARK MODE */
+.dark {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* INPUT STYLES */
+.light input {
+  background-color: #f1f5f9;
+  color: #000000;
+  border: 1.5px solid #94a3b8;
+}
+
+.dark input {
+  background-color: #1e293b;
+  color: #ffffff;
+  border: 1.5px solid #475569;
+}
+
+/* INPUT COMMON */
+input {
+  padding: 12px 14px;
+  font-size: 14px;
+  border-radius: 8px;
+  outline: none;
+}
+
+input::placeholder {
+  color: #94a3b8;
+}
+
+/* BUTTON COMMON */
+button {
+  padding: 12px 22px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  background: transparent;
+}
+
+/* ✅ FIXED BUTTON VISIBILITY */
+.light button {
+  color: #000000;
+  border: 2px solid #000000;
+}
+
+.dark button {
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+button:hover {
+  opacity: 0.8;
+}
