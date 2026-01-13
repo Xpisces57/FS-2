@@ -1,0 +1,91 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+/* Centering */
+.counter-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #0f172a; /* dark slate background */
+}
+
+/* Modern Gradient Border */
+.counter-container {
+  padding: 40px 60px;
+  border-radius: 20px;
+  background: linear-gradient(#0f172a, #0f172a) padding-box,
+              linear-gradient(135deg, #22d3ee, #a855f7, #f43f5e) border-box;
+  border: 3px solid transparent;
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.4);
+  text-align: center;
+}
+
+/* Text */
+.counter-container h1 {
+  font-size: 32px;
+  color: #e5e7eb;
+}
+
+.counter-container h2 {
+  font-size: 48px;
+  margin: 20px 0;
+  color: #38bdf8;
+}
+
+/* Buttons */
+.btn-group button {
+  padding: 12px 28px;
+  font-size: 22px;
+  margin: 0 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background: linear-gradient(135deg, #22d3ee, #a855f7);
+  color: #ffffff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-group button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(34, 211, 238, 0.5);
+}
