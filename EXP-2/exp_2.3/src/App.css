@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #0a0f1a;
+  color: #f0f0f0;
+  overflow-x: hidden;
+}
+
+/* ===== FULL PAGE BACKGROUND ===== */
+.page-wrapper {
+  min-height: 100vh;
+  width: 100vw;
+
+  background:
+    radial-gradient(circle at 80% 10%, rgba(255, 195, 0, 0.15) 0%, transparent 40%),
+    radial-gradient(circle at 10% 90%, rgba(16, 185, 129, 0.15) 0%, transparent 40%),
+    url('https://images.unsplash.com/photo-1506765515384-028b60a970df?auto=format&fit=crop&q=80&w=2000');
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== NAVBAR ===== */
+.glass-navbar {
+  background: rgba(10, 15, 26, 0.75) !important;
+  backdrop-filter: blur(20px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 1rem 0;
+}
+
+.nav-link {
+  color: rgba(255, 255, 255, 0.8) !important;
+  transition: all 0.3s;
+  padding: 0.5rem 1.2rem !important;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: #ffc300 !important;
+  transform: translateY(-2px);
+}
+
+.dropdown-menu {
+  background: rgba(15, 23, 42, 0.95);
+  backdrop-filter: blur(15px);
+  border-radius: 12px;
+}
+
+.dropdown-item {
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.dropdown-item:hover {
+  background: #ffc300;
+  color: #000;
+}
+
+/* ===== HERO SECTION ===== */
+.hero-section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 20px 40px;
+  text-align: center;
+}
+
+.hero-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(25px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 30px;
+  max-width: 800px;
+  width: 100%;
+  padding: 60px 40px;
+}
+
+/* ===== ANIMATION ===== */
+.animate-in {
+  animation: slideUp 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ===== FOOTER ===== */
+.footer-glass {
+  background: rgba(10, 15, 26, 0.5);
+  backdrop-filter: blur(15px);
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: rgba(10, 15, 26, 0.95);
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  .hero-card {
+    padding: 40px 25px;
+  }
+}

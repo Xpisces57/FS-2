@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🔥 ROOT FIX (MOST IMPORTANT) */
+#root {
+  width: 100%;
+  max-width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* BODY */
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f8fafc;
+  color: #1e293b;
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* APP WRAPPER */
+.app-wrapper {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* NAVBAR */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2.5rem;
+  background: #ffffff;
+  border-bottom: 1px solid #e2e8f0;
+  width: 100%;
+}
+
+.brand {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.nav-links span {
+  margin-left: 1.5rem;
+  cursor: pointer;
+  font-weight: 500;
+  color: #334155;
+}
+
+.nav-links span:hover {
+  color: #2563eb;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 4rem 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 2.6rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.hero h1 span {
+  color: #2563eb;
+}
+
+.hero p {
+  font-size: 1.05rem;
+  color: #475569;
+  margin-bottom: 2rem;
+}
+
+/* BUTTON */
+.primary-btn {
+  padding: 0.75rem 2rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background: #2563eb;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.primary-btn:hover {
+  background: #1d4ed8;
+}
+
+/* FEATURES */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  padding: 3rem 2.5rem;
+  width: 100%;
+}
+
+.feature-card {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 1.8rem;
+  border: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.icon {
+  font-size: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.feature-card h4 {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.feature-card p {
+  font-size: 0.95rem;
+  color: #64748b;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: auto;
+  padding: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #64748b;
+  background: #ffffff;
+  border-top: 1px solid #e2e8f0;
+  width: 100%;
+}
