@@ -12,4 +12,4 @@ Define routes for different sections (e.g., Home, Features, Contact, Dashboard, 
 Implement distinct components for each route.
 
 # Output
-<img src="">
+<img src="https://github.com/Xpisces57/FS-2/blob/6764690ee98ce2ed419c741a61053cb74fe1b23a/EXP-2/exp_2.3/images/Screenshot%202026-01-29%20123350.png">
