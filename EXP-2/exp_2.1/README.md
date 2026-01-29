@@ -20,4 +20,5 @@ Run and observe the application.
 
 # Output
 
-<img src="">
+<img src="https://github.com/Xpisces57/FS-2/blob/806141c3873ef8ced64168f0a3d442781af4827f/EXP-2/exp_2.1/images/Screenshot%202026-01-29%20123328.png">
+<img src="https://github.com/Xpisces57/FS-2/blob/806141c3873ef8ced64168f0a3d442781af4827f/EXP-2/exp_2.1/images/Screenshot%202026-01-29%20123339.png">
