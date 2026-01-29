@@ -17,4 +17,5 @@ Implement enrollment functionality with user feedback.
 Implement logout functionality.
 
 # Output
-<img src="">
+<img src="https://github.com/Xpisces57/FS-2/blob/4a9e591d2d71e38b23b1c7db81c245c51dc0fc0c/EXP-2/exp_2.4/images/Screenshot%202026-01-29%20122631.png">
+<img src="https://github.com/Xpisces57/FS-2/blob/4a9e591d2d71e38b23b1c7db81c245c51dc0fc0c/EXP-2/exp_2.4/images/Screenshot%202026-01-29%20122647.png">
