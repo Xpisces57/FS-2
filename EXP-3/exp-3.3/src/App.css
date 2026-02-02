@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Full viewport background */
+.spa-wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background:
+    linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.4)),
+    url('https://images.unsplash.com/photo-1487017664838-79c1881c21b2?auto=format&fit=crop&q=80&w=2000');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Navbar */
+.glass-header {
+  background: rgba(255,255,255,0.85);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+/* ✅ TRUE LAPTOP CENTER */
+.page-center {
+  flex: 1;
+  width: 100vw;              /* FULL SCREEN WIDTH */
+  display: flex;
+  justify-content: center;   /* horizontal center */
+  align-items: center;       /* vertical center */
+}
+
+/* Card */
+.glass-card {
+  background: rgba(255,255,255,0.75);
+  border-radius: 22px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.08);
+  max-width: 620px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Footer */
+.footer-bar {
+  background: rgba(255,255,255,0.6);
+}
+
+/* Animation */
+.animate-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
