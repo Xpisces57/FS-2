@@ -20,6 +20,6 @@ Define routes using Routes and Route components, mapping paths to specific compo
 Implement basic navigation to test page transitions without a full page reload.
 
 # Output
-<img src="">
-<img src="">
-<img src="">
+<img src="https://github.com/Xpisces57/FS-2/blob/6fb0626ba37a186a63866495352d90c4e0463972/EXP-3/exp-3.1/images/Screenshot%202026-01-29%20160337.png">
+<img src="https://github.com/Xpisces57/FS-2/blob/6fb0626ba37a186a63866495352d90c4e0463972/EXP-3/exp-3.1/images/Screenshot%202026-01-29%20160349.png">
+<img src="https://github.com/Xpisces57/FS-2/blob/6fb0626ba37a186a63866495352d90c4e0463972/EXP-3/exp-3.1/images/Screenshot%202026-01-29%20160359.png">
