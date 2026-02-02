@@ -10,6 +10,6 @@ Implement Link components in the navigation bar or within components to allow us
 Test navigation to ensure all defined routes are accessible and display the correct content without page reloads. This includes forms and data submission within routes.
 
 # Output
-<img src="">
-<img src="">
-<img src="">
+<img src="https://github.com/Xpisces57/FS-2/blob/93f8079039cf7841602fb2b8aa284db37ddfa499/EXP-3/exp-3.3/images/Screenshot%202026-02-02%20100013.png">
+<img src="https://github.com/Xpisces57/FS-2/blob/93f8079039cf7841602fb2b8aa284db37ddfa499/EXP-3/exp-3.3/images/Screenshot%202026-02-02%20100029.png">
+<img src="https://github.com/Xpisces57/FS-2/blob/93f8079039cf7841602fb2b8aa284db37ddfa499/EXP-3/exp-3.3/images/Screenshot%202026-02-02%20100041.png">
