@@ -13,9 +13,9 @@ Applied React.lazy() to the page components.
 Wrapped the <Routes> container inside a <Suspense> block.
 
 # Output
-<img src="">
-<img src="">
-<img src="">
-<img src="">
-<img src="">
-<img src="">
+<img src="https://github.com/Xpisces57/FS-2/blob/79f22e798ca9b38957d6507f589266ff10b004dd/EXP-5/exp-5.2/images/Screenshot%202026-03-12%20002938.png">
+<img src="https://github.com/Xpisces57/FS-2/blob/79f22e798ca9b38957d6507f589266ff10b004dd/EXP-5/exp-5.2/images/Screenshot%202026-03-12%20002928.png">
+<img src="https://github.com/Xpisces57/FS-2/blob/79f22e798ca9b38957d6507f589266ff10b004dd/EXP-5/exp-5.2/images/Screenshot%202026-03-12%20002949.png">
+<img src="https://github.com/Xpisces57/FS-2/blob/79f22e798ca9b38957d6507f589266ff10b004dd/EXP-5/exp-5.2/images/Screenshot%202026-03-12%20002928.png">
+<img src="https://github.com/Xpisces57/FS-2/blob/79f22e798ca9b38957d6507f589266ff10b004dd/EXP-5/exp-5.2/images/Screenshot%202026-03-12%20003009.png">
+<img src="https://github.com/Xpisces57/FS-2/blob/79f22e798ca9b38957d6507f589266ff10b004dd/EXP-5/exp-5.2/images/Screenshot%202026-03-12%20002928.png">
