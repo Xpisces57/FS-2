@@ -6,7 +6,7 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
 
-<img src="">
+<img src="https://github.com/Xpisces57/FS-2/blob/6fb5e70eb9279385f57be494c7d563e1892eb94c/EXP-10/Screenshot%202026-04-24%20124956.png">
 # Demo Websocket
 
 [![Java](https://img.shields.io/badge/Java-21+-blue.svg)](https://www.oracle.com/java/)
